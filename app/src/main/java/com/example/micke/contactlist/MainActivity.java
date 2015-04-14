@@ -34,6 +34,7 @@ public class MainActivity extends ActionBarActivity {
         emailInput = (EditText) findViewById(R.id.emailField);
         TabHost tabHost = (TabHost) findViewById(R.id.tabHost);
 
+        
         tabHost.setup();
 
         TabHost.TabSpec tabSpec = tabHost.newTabSpec("creator");
